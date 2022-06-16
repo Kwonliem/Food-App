@@ -26,7 +26,7 @@
                     </thead>
                     <tbody>
                         @forelse($food as $item)
-                            <tr>
+                            <tr class="text-center">
                                 <td class="border px-6 py-4">{{ $item->id }}</td>
                                 <td class="border px-6 py-4 ">{{ $item->name }}</td>
                                 <td class="border px-6 py-4">{{ number_format($item->price) }}</td>
