@@ -33,12 +33,12 @@
                                 <td class="border px-6 py-4">{{ $item->rate }}</td>
                                 <td class="border px-6 py-4">{{ $item->types }}</td>
                                 <td class="border px-6 py- text-center">
-                                    <a href="{{ route('food.edit', $item->id) }}" class="inline-block bg-blue-500 hover:bg-blue-700 text-black font-bold py-2 px-4 mx-2 rounded">
+                                    <a href="{{ route('food.edit', $item->id) }}" class="inline-block bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 mx-2 rounded">
                                         Edit
                                     </a>
                                     <form action="{{ route('food.destroy', $item->id) }}" method="POST" class="inline-block">
                                         {!! method_field('delete') . csrf_field() !!}
-                                        <button type="submit" class="bg-red-500 hover:bg-red-700 text-black font-bold py-2 px-4 mx-2 rounded inline-block">
+                                        <button type="submit" class="bg-red-500 hover:bg-red-700 text-white font-bold py-2 px-4 mx-2 rounded inline-block">
                                             Delete
                                         </button>
                                     </form>
