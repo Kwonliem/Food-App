@@ -4,7 +4,8 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <title>Laravel</title>
+        <title>API Food App</title>
+        <link rel="icon" type="image/png" href="https://png.pngtree.com/png-vector/20190119/ourlarge/pngtree-cracked-egg-icon-graphic-design-template-vector-png-image_325806.jpg">
 
         <!-- Fonts -->
         <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&display=swap" rel="stylesheet">

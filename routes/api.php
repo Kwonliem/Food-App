@@ -30,5 +30,9 @@ Route::post('register',[UserController::class,'register']);
 // Food Controller
 Route::get('food', [FoodController::class, 'all']);
 
+Route::post('addFood', [FoodController::class, 'addFood']);
+Route::post('editFood/{id}', [FoodController::class, 'editFood']);
+Route::delete('deleteFood/{id}', [FoodController::class, 'deleteFood']);
+
 // Midtrans Controller
 Route::post('midtrans/callback',[MidtransController::class,'callback']);
